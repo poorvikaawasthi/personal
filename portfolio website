@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <h1>Hello, I'm Poorvika 👋</h1>
+  <p>Web Developer | Student</p>
+  <p>I create clean and simple websites using HTML and CSS.</p>
+</section>
+
+<footer>
+  © 2026 Poorvika Awasthi
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a passionate web development student. I enjoy designing
+    responsive and user-friendly websites using HTML and CSS.
+  </p>
+</section>
+
+<footer>
+  © 2026 Poorvika Awasthi
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skills | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <h2>My Skills</h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript (Basic)</li>
+    <li>Git</li>
+  </ul>
+</section>
+
+<footer>
+  © 2026 Poorvika Awasthi
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 Poorvika Awasthi
+</footer>
+
+</body>
+</html>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+section {
+  background: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Skills */
+.skills li {
+  list-style: none;
+  background: #ddd;
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Contact Form */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
